@@ -1,0 +1,1 @@
+Download AUB alle files, anders werkt het niet. Verder hoef je niks extra te downloaden; fotos zijn via urls

@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minnesota Timberwolves</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function goStats() {
+            window.location.href = "stats.html";
+        }
+        function goPlayers() {
+            window.location.href = "players.html";
+        }
+        function goGames() {
+            window.location.href = "games.html";
+        }
+        function goInfo() {
+            window.location.href = "info.html";
+        }
+    </script>
 </head>
 <body>
     <header class="header">
@@ -18,10 +32,10 @@
             <div class="overlay">
                 <h2>All things Timberwolves.</h2>
                 <div class="buttons">
-                    <button>INFORMATION</button>
-                    <button>GAMES</button>
-                    <button>PLAYERS</button>
-                    <button>STATISTICS</button>
+                    <button onclick="goInfo()">INFORMATION</button>
+                    <button onclick="goGames()">GAMES</button>
+                    <button onclick="goPlayers()">PLAYERS</button>
+                    <button onclick="goStats()">STATISTICS</button>
                 </div>
             </div>
         </div>
